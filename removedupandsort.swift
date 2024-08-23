@@ -1,6 +1,6 @@
 func removeDupAndSort(_ arr: [Int]) -> [Int] {
-    let uniqueSet = Set(arr) // Remove duplicates by converting the array to a Set
-    let sortedArray = uniqueSet.sorted() // Sort the unique elements
+    let uniqueSet = Set(arr)
+    let sortedArray = uniqueSet.sorted()
     return sortedArray
 }
 
